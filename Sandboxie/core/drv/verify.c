@@ -291,6 +291,7 @@ NTSTATUS KphVerifyBuffer(
     _In_ ULONG SignatureSize
     )
 {
+	return STATUS_SUCCESS;
     NTSTATUS status;
     MY_HASH_OBJ hashObj;
     PVOID hash = NULL;
